@@ -16,3 +16,11 @@ def is_prime(n):
 def are_coprime(a, b):
     """Return True if a and b are coprime (GCD = 1)."""
     return math.gcd(a, b) == 1
+
+def prime_range(a,b):
+    """Returns a list of all primes between a and b"""
+    l=[]
+    for i in range(a,b+1):
+        if is_prime(i):
+            l.append(i)
+    return l
