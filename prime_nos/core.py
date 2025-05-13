@@ -25,4 +25,5 @@ def prime_range(a, b):
             l.append(i)
     return l
 
-# print(prime_range(10,30))
+# rm -rf build/ dist/ *.egg-info
+# python -m build
